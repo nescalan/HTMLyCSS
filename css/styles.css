@@ -1,0 +1,62 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: 'Helvetica', sans-serif, Arial;
+}
+
+/* INICIO DE ESTILOS PARA EL MENU --NAV-- */
+nav {
+    display: flex;
+    background-color: #7ACC2D;
+    padding: 10px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    padding-right: 10px;
+}
+
+nav li a{
+    color: black;
+    text-decoration: none;
+  }
+  
+  nav li a:hover{
+    color: white;
+  }
+/* FIN DE LOS ESTILOS PARA EL MENU --NAV-- */
+
+/* INICIO DE ESTILOS PARA EL --MAIN SECTION-- */
+.main_section {
+    padding: 15%;
+    text-align: center;
+}
+
+.products {
+    background-image: url("../images/curve.png");
+    height: 200px; 
+    background-size: cover;
+    background-position: center top;
+    padding: 15%;
+    display: flex;
+}
+
+.product {
+    padding: 10px;
+}
+
+.product .content {
+    background-color: white;
+    padding: 20px;
+
+}
+/* FIN DE LOS ESTILOS PARA EL --MAIN SECTION-- */
